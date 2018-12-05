@@ -1,0 +1,15 @@
+<web-app>
+<servlet>
+<servlet-name>kajal</servlet-name>
+<servlet-class>com.skype.VideoConference</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>kajal</servlet-name>
+<url-pattern>/video</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>small.jsp</welcome-file>
+</welcome-file-list>
+</web-app>
